@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel='shortcut icon' type='image/x-icon' href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-chrome-384x384.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/mstile-150x150.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">  
+    <meta name="theme-color" content="#ffffff">
+    <title>Tatvasoft 4</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="site-header" id="header">
+            <div class="site-header-wrapper">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <div class="logo-wrapper">
+                            <a class="site-logo" title="logo" href="#"><img src="images/site-logo.svg"
+                                    alt="Tatvasoft" /></a>
+                        </div>
+                        <div class="nav-wrapper">
+                            <div class="top-right-bar">
+                                <ul class=" top-nav-bar">
+                                    <li>
+                                        <a title="Login" href="#">Login</a>
+                                    </li>
+                                    <li>
+                                        <a title="Register" href="#">Register</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <button class="cart">
+                                        <ul>
+                                            <li class="img"><a title="Cart" href="#"><img src="images/cart.svg" alt="cart"><span>0</span></a>
+                                            </li>
+                                            <li class="text">
+                                                <p>Cart</p>
+                                            </li>
+                                        </ul>
+                                    </button>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </header>
+    </div>
+
+
+    <div class="second">
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="What you are looking for..">
+            <button class="search-btn"><em><img src="images/search.svg" alt="Search"></em>Search</button>
+            <button class="cancel-btn">Cancel</button>
+        </div>
+    </div>
+
+
+<!-- <section class="product-page-wrapper">
+    <div class="container">
+       <h1>Edit Product</h1>
+        <form action="">
+            <div class="editForm">
+
+
+                <div class="form-row-wrapper">
+
+                    <div class="form-col">
+                        <div class="form-group">
+                            
+                        </div>
+                    </div>
+
+                    <div class="form-col">
+                        <div class="form-group">
+                            
+                        </div>
+                    </div>
+
+                    <div class="form-col">
+                        <div class="form-group">
+                            
+                        </div>
+                    </div>
+
+                    <div class="form-col">
+                        <div class="form-group">
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+
+                
+            </div>
+
+
+        </form>
+    </div>
+</section> -->
+
+<div class="container">
+    <h1>Product Page</h1>
+</div>
+
+<!-- <div class="editForm">
+
+    <div class="sec1">
+        <div class="fname">
+            <label for="fname">First Name *</label>
+            <input type="text" name="fname" class="form-control">
+        </div>
+        <div class="lname">
+            <label for="lname">Last Name *</label>
+            <input type="text" name="lname" class="form-control">
+        </div>
+    </div>
+
+    <div class="sec2">
+        <div class="shopCategories">
+            <label for="shopCategories">Shop by Categories</label>
+            <select name="shopCategories" id="shopCategories">
+                <option value="1">Novel</option>
+                <option value="2">Literature</option>
+                <option value="3">TextBook</option>
+                <option value="4">Magazine</option>
+            </select>
+        </div>
+        <div class="description">
+            <label for="description">Description</label>
+            <input type="text"name="description"class="form-control">
+        </div>
+    </div>
+
+</div> -->
+
+
+<section>
+
+    <div class="editForm">
+        <div class="wrapper">
+            <div class="sec1">
+                <div class="fname">
+                    <label for="fname">First Name *</label>
+                    <input type="text" name="fname" class="form-content1" id="fname">
+                </div>
+                <span></span>
+                <div class="lname">
+                    <label for="lname">Last Name *</label>
+                    <input type="text" name="lname" class="form-content1" id="lname">
+                </div>
+            </div>
+            <div class="sec2">
+                <div class="shopCategories">
+                    <label for="shopCategories">Shop by Categories</label>
+                    <select name="shopCategories" id="shopCategories" id="shopCategories">
+                        <option value="1">Novel</option>
+                        <option value="2">Literature</option>
+                        <option value="3">TextBook</option>
+                        <option value="4">Magazine</option>
+                    </select>
+                </div>
+                <span></span>
+                <div class="description">
+                    <label for="description">Description</label>
+                    <input type="text"name="description"class="form-content1" id="description">
+                </div>
+            </div>
+            <div class="upload-file">
+                <input class="upload-btn" type="button" value="Upload">
+                <input type="text" name="file name" id="file-name"class="form-content1" placeholder="No file chosen">
+            </div>
+            <div class="save-cancel-btn">
+                <input class="btn-save" type="button" value="Save">
+                <input class="btn-cancel" type="button" value="Cancel">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <div class="footer">
+        <div class="footer-logo">
+            <a class="logo2" href="#"><img src="images/site-logo.svg" alt="Tatvasoft" /></a>
+        </div>
+        <div class="container">
+            <p class="copyright-text">
+                © 2015 Tatvasoft.com. All rights reserved.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
